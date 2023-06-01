@@ -1,7 +1,7 @@
 # How to Control Sentiment in Text Generation: A Survey of the State-of-the-Art in Sentiment-Control Techniques
 
 A list of papers on Sentiment-Controlled Text Generation including links to papers, categorisation scheme and annotations of each paper.
-[Here](https://docs.google.com/spreadsheets/d/18mYRGZf8NaLuckEER4fQ7RGWyEy-hI6P9lFjcYocSg8/edit?usp=sharing){:target="_blank"} you can find all the annotations we did on the analysed papers.
+[Here](https://docs.google.com/spreadsheets/d/18mYRGZf8NaLuckEER4fQ7RGWyEy-hI6P9lFjcYocSg8/edit?usp=sharing) you can find all the annotations we did on the analysed papers.
 
 ![sentiment-ctg categorisation scheme image](https://github.com/michelalorandi/sentimentCTG-survey/blob/main/sentiment_ctg_categorisation.png?raw=true)
 
