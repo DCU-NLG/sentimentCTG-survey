@@ -23,13 +23,16 @@ A list of papers on Sentiment-Controlled Text Generation including links to pape
     - [Single](#single)
     - [Multiple](#multiple)
   - [**By Control Attributes**](#by-control-attributes)
-    - [Sentiment](#sentiment)
-    - [Topic](#topic)
-    - [Toxicity](#toxicity)
-    - [Action](#action)
-    - [Character](#character)
-    - [Tense](#tense)
-    - [Need](#need)
+    - [Polarity Control](#polarity-control)
+      - [Sentiment](#sentiment)
+      - [Toxicity](#toxicity)
+    - [Content Control](#content-control)
+      - [Topic](#topic)
+      - [Action](#action)
+      - [Character](#character)
+      - [Need](#need)
+    - [Syntactic Control](#syntactic-control)
+      - [Tense](#tense)
 
 # Surveys
 
@@ -138,7 +141,9 @@ A list of papers categorised by whether a single or multiple attributes are cont
 ## By Control Attributes
 A list of papers categorised by considered control attributes.
 
-### Sentiment
+### Polarity Control
+
+#### Sentiment
 - A Sentiment-Controllable Topic-to-Essay Generator with Topic Knowledge Graph [(Qiao et al., Findings 2020)](https://aclanthology.org/2020.findings-emnlp.299/)
 - Controlled Text Generation with Adversarial Learning [(Betti et al., INLG 2020)](https://aclanthology.org/2020.inlg-1.5/)
 - Psychology-guided Controllable Story Generation [(Xie et al., COLING 2022)](https://aclanthology.org/2022.coling-1.564/)
@@ -159,7 +164,18 @@ A list of papers categorised by considered control attributes.
 - GeDi: Generative Discriminator Guided Sequence Generation [(Krause et al., Findings 2021)](https://aclanthology.org/2021.findings-emnlp.424/)
 - Multi-Attribute Controlled Text Generation with Contrastive-Generator and External-Discriminator [(Liu et al., COLING 2022)](https://aclanthology.org/2022.coling-1.516/)
 
-### Topic
+#### Toxicity
+- Controllable Natural Language Generation with Contrastive Prefixes [(Qian et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.229/)
+- A Distributional Lens for Multi-Aspect Controllable Text Generation [(Gu et al., EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.67/)
+- Gradient-based Constrained Sampling from Language Models [(Kumar et al., EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.144/)
+- Improving Controllable Text Generation with Position-Aware Weighted Decoding [(Gu et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.272/)
+- DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts [(Liu et al., ACL-IJCNLP 2021)](https://aclanthology.org/2021.acl-long.522/)
+- DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation [(Zhang & Song, EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.223/)
+- GeDi: Generative Discriminator Guided Sequence Generation [(Krause et al., Findings 2021)](https://aclanthology.org/2021.findings-emnlp.424/)
+
+### Content Control 
+
+#### Topic
 - A Sentiment-Controllable Topic-to-Essay Generator with Topic Knowledge Graph [(Qiao et al., Findings 2020)](https://aclanthology.org/2020.findings-emnlp.299/)
 - Controlled Text Generation with Adversarial Learning [(Betti et al., INLG 2020)](https://aclanthology.org/2020.inlg-1.5/)
 - Controllable Natural Language Generation with Contrastive Prefixes [(Qian et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.229/)
@@ -173,24 +189,17 @@ A list of papers categorised by considered control attributes.
 - GeDi: Generative Discriminator Guided Sequence Generation [(Krause et al., Findings 2021)](https://aclanthology.org/2021.findings-emnlp.424/)
 - Multi-Attribute Controlled Text Generation with Contrastive-Generator and External-Discriminator [(Liu et al., COLING 2022)](https://aclanthology.org/2022.coling-1.516/)
 
-### Toxicity
-- Controllable Natural Language Generation with Contrastive Prefixes [(Qian et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.229/)
-- A Distributional Lens for Multi-Aspect Controllable Text Generation [(Gu et al., EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.67/)
-- Gradient-based Constrained Sampling from Language Models [(Kumar et al., EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.144/)
-- Improving Controllable Text Generation with Position-Aware Weighted Decoding [(Gu et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.272/)
-- DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts [(Liu et al., ACL-IJCNLP 2021)](https://aclanthology.org/2021.acl-long.522/)
-- DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation [(Zhang & Song, EMNLP 2022)](https://aclanthology.org/2022.emnlp-main.223/)
-- GeDi: Generative Discriminator Guided Sequence Generation [(Krause et al., Findings 2021)](https://aclanthology.org/2021.findings-emnlp.424/)
-
-### Action
+#### Action
 - CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions [(Wang et al., COLING 2022)](https://aclanthology.org/2022.coling-1.559/)
 
-### Character
+#### Character
 - Psychology-guided Controllable Story Generation [(Xie et al., COLING 2022)](https://aclanthology.org/2022.coling-1.564/)
 - CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions [(Wang et al., COLING 2022)](https://aclanthology.org/2022.coling-1.559/)
 
-### Tense
+#### Need
+- Psychology-guided Controllable Story Generation [(Xie et al., COLING 2022)](https://aclanthology.org/2022.coling-1.564/)
+
+### Syntactic Control
+
+#### Tense
 - Controlled Text Generation Using Dictionary Prior in Variational Autoencoders [(Fang et al., Findings 2022)](https://aclanthology.org/2022.findings-acl.10/)
-
-### Need
-- Psychology-guided Controllable Story Generation [(Xie et al., COLING 2022)](https://aclanthology.org/2022.coling-1.564/)
